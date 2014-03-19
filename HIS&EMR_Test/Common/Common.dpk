@@ -1,0 +1,54 @@
+package Common;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  dsnap,
+  dbrtl,
+  dsnapcon,
+  vcljpg,
+  FlatStyle_D6,
+  indy,
+  fs6,
+  frx6,
+  frxe6;
+
+contains
+  base_u in 'base_u.pas' {base_f},
+  dm_u in 'dm_u.pas' {DM: TDataModule},
+  PlugIn_u in 'PlugIn_u.pas' {PlugIn_f},
+  Share_u in '..\ShareUnit\Share_u.pas',
+  edtBtn4_u in '..\Frame\edtBtn4_u.pas' {edtBtn4_fm: TFrame},
+  BtnXZSC_u in '..\Frame\BtnXZSC_u.pas' {XZSC_Fm: TFrame},
+  edtBtn2_u in '..\Frame\edtBtn2_u.pas' {edtBtn2_fm: TFrame},
+  btnYg_u in '..\Frame\btnYg_u.pas' {BtnYg_fm: TFrame},
+  edtBtn5_u in '..\Frame\edtBtn5_u.pas' {edtBtn5_f: TFrame},
+  edtBtn3_u in '..\Frame\edtBtn3_u.pas' {edtBtn3_fm: TFrame},
+  ShareMsg_u in 'ShareMsg_u.pas',
+  Popup_u in 'Popup_u.pas' {Popup_f};
+
+end.

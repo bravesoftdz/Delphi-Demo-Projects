@@ -1,0 +1,1 @@
+Delphi从文件取Icon并绘出的Demo，备用

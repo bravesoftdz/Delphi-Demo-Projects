@@ -1,0 +1,1 @@
+用Delphi的TThread类编写的简单的多线程测试

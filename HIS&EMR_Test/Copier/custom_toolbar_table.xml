@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE toolbar:toolbar PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "toolbar.dtd">
+<toolbar:toolbar xmlns:toolbar="http://openoffice.org/2001/toolbar" xmlns:xlink="http://www.w3.org/1999/xlink" toolbar:uiname="扩展1">
+ <toolbar:toolbaritem xlink:href=".uno:InsertGraphic" toolbar:text="图片(来自文件)" toolbar:helpid=".uno:InsertGraphic"/>
+ <toolbar:toolbaritem xlink:href=".uno:InsertTable" toolbar:text="表格" toolbar:helpid=".uno:InsertTable"/>
+ <toolbar:toolbaritem xlink:href=".uno:SetBorderStyle" toolbar:helpid=".uno:SetBorderStyle"/>
+ <toolbar:toolbaritem xlink:href=".uno:LineStyle" toolbar:helpid=".uno:LineStyle"/>
+ <toolbar:toolbaritem xlink:href=".uno:SelectTable" toolbar:text="选择表格" toolbar:helpid=".uno:SelectTable"/>
+ <toolbar:toolbaritem xlink:href=".uno:DistributeRows" toolbar:helpid=".uno:DistributeRows"/>
+ <toolbar:toolbaritem xlink:href=".uno:DistributeColumns" toolbar:text="平均分布各列" toolbar:helpid=".uno:DistributeColumns"/>
+ <toolbar:toolbaritem xlink:href=".uno:Print" toolbar:text="打印" toolbar:helpid=".uno:Print"/>
+ <toolbar:toolbaritem xlink:href=".uno:PrintPreview" toolbar:text="打印预览" toolbar:helpid=".uno:PrintPreview"/>
+ <toolbar:toolbaritem xlink:href=".uno:PrintPagePreView" toolbar:helpid=".uno:PrintPagePreView"/>
+ <toolbar:toolbaritem xlink:href=".uno:PreviewPrintOptions" toolbar:helpid=".uno:PreviewPrintOptions"/>
+</toolbar:toolbar>

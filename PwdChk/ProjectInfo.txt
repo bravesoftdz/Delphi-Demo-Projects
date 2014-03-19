@@ -1,0 +1,1 @@
+将http://www.passwordmeter.com/的密码强度测试Js改写成Delphi做的
